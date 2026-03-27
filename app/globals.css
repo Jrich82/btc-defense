@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  background: #0a0a0a;
+  color: #f0f0f0;
+}
+
+.btc-orange { color: #F7931A; }
+.bg-btc-orange { background-color: #F7931A; }
+.border-btc-orange { border-color: #F7931A; }
+
+.glow-orange { box-shadow: 0 0 20px rgba(247,147,26,0.3); }
+.glow-orange:hover { box-shadow: 0 0 40px rgba(247,147,26,0.5); }
+
+.grid-bg {
+  background-image: linear-gradient(rgba(247,147,26,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(247,147,26,0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
