@@ -6,6 +6,7 @@ import DefenseGuide from "./components/DefenseGuide";
 import AddressAuditor from "./components/AddressAuditor";
 import Updates from "./components/Updates";
 import BIP360Explorer from "./components/BIP360Explorer";
+import BIPTracker from "./components/BIPTracker";
 import QuantumCountdown from "./components/QuantumCountdown";
 import OpSecChecklist from "./components/OpSecChecklist";
 import Footer from "./components/Footer";
@@ -21,6 +22,7 @@ export default function Home() {
       <AddressAuditor />
       <Updates />
       <BIP360Explorer />
+      <BIPTracker />
       <QuantumCountdown />
       <OpSecChecklist />
       <Footer />
